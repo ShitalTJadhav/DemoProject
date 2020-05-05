@@ -10,7 +10,7 @@
 		536F2C8124438D02007238F2 /* DemoProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 536F2C7724438D02007238F2 /* DemoProject.framework */; };
 		536F2C8624438D02007238F2 /* DemoProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 536F2C8524438D02007238F2 /* DemoProjectTests.swift */; };
 		536F2C8824438D02007238F2 /* DemoProject.h in Headers */ = {isa = PBXBuildFile; fileRef = 536F2C7A24438D02007238F2 /* DemoProject.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		536F2C9224438D69007238F2 /* LoginClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 536F2C9124438D69007238F2 /* LoginClient.swift */; };
+		536F2C9224438D69007238F2 /* LoginClient.swift in Headers */ = {isa = PBXBuildFile; fileRef = 536F2C9124438D69007238F2 /* LoginClient.swift */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -97,6 +97,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				536F2C8824438D02007238F2 /* DemoProject.h in Headers */,
+				536F2C9224438D69007238F2 /* LoginClient.swift in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -199,7 +200,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				536F2C9224438D69007238F2 /* LoginClient.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -394,7 +394,6 @@
 		536F2C8F24438D02007238F2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = DemoProjectTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -412,7 +411,6 @@
 		536F2C9024438D02007238F2 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = DemoProjectTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (

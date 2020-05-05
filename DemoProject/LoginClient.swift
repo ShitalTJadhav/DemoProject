@@ -12,6 +12,11 @@ public class LoginClient {
   public let username : String! = nil
   public let password : String! = nil
   
+  public init(username: String, password: String) {
+    self.username = username
+    self.password = password
+  }
+  
   public func getUsernameAndPassword() -> String {
     return username + password
   }
